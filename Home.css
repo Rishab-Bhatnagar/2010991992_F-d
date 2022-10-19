@@ -1,0 +1,421 @@
+#navbar{
+    display: flex;
+    cursor: pointer;
+    justify-content: space-around;
+    color:white;
+    flex-wrap: wrap;
+    position: fixed;
+    top:-20px;
+    width: 100%;
+    background-color:black;
+    z-index: 20s;
+    padding: 15px;
+    color:white;
+}
+
+#firstnav{
+    display: flex;
+    justify-content: space-between;
+    width: 230px;
+}
+#middlenav{
+    display: flex;
+    justify-content: space-evenly;
+    width:500px
+}
+
+/* #complete-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: red;
+} */
+.btn {
+    border-radius: 50px;
+    width: 100px;
+}
+li{
+    list-style-type: none;
+}
+li:hover{
+    color:rgb(224, 224, 159)
+}
+
+#middleDiv{
+   
+    height: auto;
+    /* background-color: #ffc107 */
+}
+#centerpart{
+    display: flex;
+    margin-top: 5%;
+    justify-content: space-evenly;
+    height: auto;
+    flex-wrap: wrap;
+    /* background-color: red; */
+    padding: 2%;
+   
+}
+
+#bg-img{
+    background-image: url("selfImg.jpeg");
+    background-size: 100% 100%;
+    width: 330px;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+     /* opacity: 0.6;  */
+    height: 350px;
+}
+
+i{
+    margin-left:40px;
+    margin-right:40px;
+    color: #ffc107 !important;;
+}
+.social-icon-div{
+   
+    margin-left: 160px;
+    margin-top: auto;
+    margin-bottom: 8%;
+}
+.experience-container{
+    display: flex;
+    margin-top:80px;
+  
+    width:500px;
+
+    flex-wrap: nowrap;
+    justify-content: space-evenly;    
+}
+
+.experience-content{
+    border-radius:50%;
+    background-color: white;
+    width:50px;
+    height:50px;
+    text-align: center;
+    padding-top:10px;
+    font-weight:bolder;
+
+
+}
+.experience{
+color:white;
+text-align: center;
+width:50px;
+}
+.experience-container2
+{
+    display: flex;
+    flex-wrap: nowrap;
+ 
+
+    width:500px;
+    justify-content: space-evenly;
+}
+.experience-container3{
+    display: flex;
+    flex-wrap: nowrap;
+
+    width:500px;
+    justify-content: space-evenly;
+
+}
+.brand{
+    margin-top:40px;
+}
+#bg-img2{
+    background-image: url("https://www.newmoney.ro/wp-content/uploads/2017/08/branduri_gigant_newmoney_facebook_google_amazon-840x600.jpg");
+    
+    background-size: 100% 100%;
+    width: 300px;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    /* opacity: 0.6; */
+    height: 300px;
+    
+}
+.project-header{
+    text-align: center;
+}
+.projects{
+    margin-top: 7%; 
+
+}
+.portfolio-projects{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 6%;
+    flex-wrap: wrap;
+   
+
+}
+.portfolio{
+   border-top:1px solid rgba(121, 125, 125, 0.768);
+   border-left:1px solid rgba(121, 125, 125, 0.768);
+   border-radius: 10%;
+   width: 250px;
+   text-align: center;
+   background-color: rgb(22,24,22);
+   cursor: pointer;
+   transition: all 1s ;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   height: 300px;
+}
+ h4{
+    color: white;
+    text-align: center;
+}
+#contact-form{
+    display: flex;
+    flex-wrap: wrap;
+   /* background-color: red; */
+   justify-content: space-evenly;
+}
+#size-form{
+    width:400px
+}
+
+.portfolio p{
+    color:white;
+    margin: auto;
+}
+
+.viewbutton{
+    border-left:3px solid rgb(62,107,93);
+    border-bottom:3px solid rgb(62,107,93);
+    border-radius:25%;
+    /* width:80px; */
+    color:white;
+    background-color:rgb(22,24,22);
+    /* margin-bottom:20px; */
+   
+    /* margin-top: 10px; */
+    transition: all 0.5s;
+    display: inline-block;
+    
+
+
+}
+
+
+.viewbutton:hover{
+     border-top:3px solid rgb(62,107,93);
+     border-right:3px solid rgb(62,107,93);
+     border-left: 0px;
+     border-bottom: 0px;
+}
+.clients-heading{
+    font-size: 30px;
+    text-align:center;
+    color:white;
+    display: inline-block;
+
+}
+.my-work{
+    border: 2px solid white;
+    height:200px;
+    width:350px;
+    background-color:   rgb(64,66,64);
+    border-radius: 10%;
+    text-align: center;
+
+}
+.clients-img{
+    height:80px;
+    width:80px;
+    border-radius: 50%;
+    display:block;
+    margin-left:35%;
+    margin-top: 5%;
+}
+.visit{
+    background-color: white;
+    color:black;
+    border-radius: 10%;
+}
+.form{
+    margin-left: 10%;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    /* background-color: rgb(177,134,5); */
+    height:300px;
+}
+.white{
+    color:white;
+}
+
+#outer{
+    display: flex;
+    
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.yellowbg{
+    background-color:yellow;
+    color:white;
+}
+#outer--{
+height: auto;
+}
+#out1{
+    width: 400px;
+    height: 700px;
+}
+#out2{
+    height: 900px;
+    width:400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+#content-bottom-box{
+    height: 400px;
+    width: 300px;    
+ 
+}
+
+.out2-inner{
+    height: 400px;
+    width: 300px;
+}
+
+
+.button-div{
+   width: 700px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.flex-remove{
+    display: block;
+}
+
+
+.btn-cv{
+   width: 150px;
+}
+
+.mov21{
+    margin-left:50%;
+    transition: all 2s ease-in-out;
+   
+}
+
+.move21{
+    transition: all 2s ease-in-out;
+    margin-left: 20%;
+    
+}
+
+.mov22{
+    margin-left:50%;
+    transition: all 2s ease-in-out;
+   
+}
+
+.move22{
+    transition: all 2s ease-in-out;
+    margin-left: 10%;
+    
+}
+
+.move1{
+    margin-right:30%;
+    transition: all 2s ease-in-out;
+   
+}
+.mov1{
+    margin-right:10%;
+    transition: all 2s ease-in-out;
+   
+}
+
+.box-shadow{
+    box-shadow: 2px 4px 18px #ffc107;
+}
+
+.cveffect{
+    transition:all 0.5;
+}
+.cveffect:hover{
+    background-color: white;
+    color:#ffc107;
+}
+.white-icon{
+     color: white!important;
+}
+
+
+
+#mov1:hover{
+    
+    transform: translateY(-20px);
+}
+#mov2:hover{
+    
+    transform: translateY(-20px);
+}
+
+.black-color{
+    color:black !important;
+
+}
+a{
+    color:white;
+    
+}
+a:hover{
+    color:#ffc107;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:800px){
+    #middlenav{
+        display: none;
+    }
+    .social-icon-div{
+        margin-left: 30px;
+    }
+    .experience-container{
+        margin: auto;
+    }
+    
+    .experience-container2{
+        margin: auto;
+ 
+
+    }
+    .experience-content{
+        margin-top: 30px;
+    }
+    
+    
+    .experience-container3{
+        margin: auto;
+   
+    }
+   
+
+}
+.main-title{
+    text-align: center;
+}
+
+  
+
+
+  
